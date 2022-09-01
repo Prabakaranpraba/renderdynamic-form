@@ -12,8 +12,8 @@ export default function App() {
       <div style={{ margin: "20px 0" }}>
         {/* <select onChange={(e) => setInputSchema(e.target.value)}> */}
         <select onChange={(e) => setInputSchema(JSON.parse(e.target.value))}>
-          <option value={JSON.stringify(jsonData.fields)}>JSON 1</option>
-          <option value={JSON.stringify(jsonData2.fields)}>JSON 2</option>
+          <option value={JSON.stringify(jsonData.fields)}>Drug1.Json</option>
+          <option value={JSON.stringify(jsonData2.fields)}>Drug2.json</option>
         </select>
       </div>
       <div
